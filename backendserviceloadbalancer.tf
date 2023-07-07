@@ -4,7 +4,7 @@ resource "google_compute_backend_service" "backendfetchdata" {
   locality_lb_policy              = "ROUND_ROBIN"
   name                            = "backendfetchdata"
   port_name                       = "http"
-  project                         = var.project_id
+  project                         = learning-project-381703
   protocol                        = "HTTPS"
   session_affinity                = "NONE"
   timeout_sec                     = 30
